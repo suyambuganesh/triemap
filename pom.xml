@@ -31,6 +31,11 @@
 
     <description>Java implementation of a concurrent trie hash map from Scala collections library</description>
 
+    <properties>
+        <sonar.jacoco.reportPaths>${project.build.directory}/code-coverage/jacoco.exec</sonar.jacoco.reportPaths>
+        <sonar.jacoco.itReportPaths>${project.build.directory}/code-coverage/jacoco-it.exec</sonar.jacoco.itReportPaths>
+    </properties>
+
     <modules>
         <module>pt-triemap</module>
         <module>triemap</module>
